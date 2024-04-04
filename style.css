@@ -47,6 +47,8 @@ color: #6f6d6d;
 display: flex;
 flex-direction: column;
 height: 98dvh;
+overflow-x: auto
+
  }
  .wrapper{
   
@@ -151,4 +153,12 @@ span {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width:600px){
+.layout{
+  
+  overflow-x: auto;
+}
+  
 }
