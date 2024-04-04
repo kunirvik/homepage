@@ -157,8 +157,11 @@ a {
 
 @media (max-width:600px){
 .layout{
-  
+
   overflow-x: auto;
+}
+.text{
+  font-size:15vw ;
 }
   
 }
