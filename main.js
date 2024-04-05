@@ -1,7 +1,8 @@
 import './style.css'
 
-import { gsap } from 'gsap';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';п // Correct import for ScrollTrigger
+import { gsap } from 'gsap/gsap-core';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+// Correct import for ScrollTrigger
 
 // Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
