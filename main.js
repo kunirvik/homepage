@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 const container = document.querySelector('.layout');
 const slides = document.querySelectorAll('.slide');
 const containerWidth = container.offsetWidth;
-if (ScrollTrigger.isTouch !== 2){gsap.to( slides, {
+gsap.to( slides, {
 	xPercent: -110 * (slides.length - 1),
 	ease: "none", 
 	scrollTrigger: {
@@ -26,4 +26,4 @@ if (ScrollTrigger.isTouch !== 2){gsap.to( slides, {
 		invalidateOnRefresh: true, 
 	}
 	
-})}
+})
